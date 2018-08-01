@@ -1,0 +1,40 @@
+.component-app {
+  max-width: 340px;
+  margin: 0 auto;
+  border: 0.3px solid #921029;
+  border-radius: 5px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.component-display {
+  height: 40px;
+  border-bottom: 1px solid #111;
+  background-color: #533d3d;
+  color: #ffffff;
+  text-align: right;
+  height: 65px;
+  padding: 30px 15px 0 0;
+}
+
+.button-panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 80px);
+}
+
+.button-panel div {
+  text-align: center;
+  border: 0.3px solid #921029;
+  padding: 20px;
+}
+
+.button-panel .wide {
+  grid-column-start: span 2;
+}
+
+.calculating-color {
+  background-color: #F2274F;
+  color: #FFFFFF;
+}
